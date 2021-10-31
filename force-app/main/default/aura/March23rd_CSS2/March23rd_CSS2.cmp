@@ -1,0 +1,23 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes" access="global" >
+	<head>
+       <aura:html tag="style">
+           .maincontainer{
+                color:red;
+                font-size:18px;
+           }
+           .divinr{
+                color:green;
+                font-size:25px;
+                border:1px pink solid;
+           }
+        </aura:html>
+    </head>
+      
+    <body>
+        <div>
+            <span class="maincontainer">span two element</span><br/>
+            <span class="divinr">This is span one</span>
+            <p class="maincontainer">This is paragraph para one</p>
+         </div>    
+    </body>
+</aura:component>

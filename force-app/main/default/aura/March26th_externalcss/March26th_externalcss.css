@@ -1,0 +1,37 @@
+.THIS.main-containerd{
+   margin:5px;
+    background:skyblue;
+}
+.THIS.ptwo{
+    color:red;
+    font-size:16px;
+}
+
+/** Mobile device style **/
+@media only screen and (max-device-width:370px){
+    .THIS.main-container {
+        background:red;
+        color:white;
+        font-size:35px;
+    }
+    .THIS.opptwo{
+        color:red;
+    }
+}
+
+/** Ipads. 375 to 768 **/
+@media only screen and (min-device-width:376px) and (max-device-width:768px) {
+    .THIS.main-container {
+        background:green;
+        color:white;
+        font-size:50px;
+    }
+}
+/** Large screens **/
+    @media only screen and (min-device-width:1024px)  {
+    .THIS.main-container {
+        background:yellow;
+        color:red;
+        font-size:50px;    
+    }
+}

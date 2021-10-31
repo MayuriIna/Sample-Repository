@@ -1,0 +1,9 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes" access="global" >
+    <div>
+        <h1 style="margin-left:100px;margin-bottom:10px;margin-top:50px;font-size:20px;font-weight:bold;color:red;font-style:italic"><b>This is my first CSS class</b></h1>
+        <div style="color:RGB(255, 254, 51 );font-size:15px;border:10px solid salmon;background-color:grey;width:40%;height:200px;">
+           The WTA Tour is scheduled to return in August ahead of the US Open later in the month, although Williams' coach Patrick Mouratoglou recently told CNN he doubted she would play in New York if her family and daughter can't be there with her.
+        </div>
+    </div>
+	
+</aura:component>

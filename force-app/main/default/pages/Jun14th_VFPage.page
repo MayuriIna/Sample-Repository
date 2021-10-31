@@ -1,0 +1,51 @@
+<apex:page showHeader="False" >
+    <head>
+        <body>
+            <div>
+                <p>
+                    This is my first para
+                </p>
+                <p>
+                    This is my second para
+                </p>
+            </div>
+            
+            <script type="text/javascript">
+                var stdList = [];
+                var colorList = ['red','blue','green'];
+                var batchList = [
+                          {
+                                'batchname': '1st batch', 
+                                'studentscount': 4,
+                                'batchtype': 'online'
+                           },
+                           {
+                                'batchname': '2nd batch', 
+                                'studentscount': 16,
+                                'batchtype': 'online'
+                            },
+                            {
+                                'batchname': '3rd batch', 
+                                'studentscount': 23,
+                                'batchtype': 'online'
+                           }
+                    ];
+            //console.log('colorList==' + colorList);
+            //console.log('stdList==' + stdList);
+                console.log('batchList==' + batchList);
+                var mybatch2 = {};
+                for(var i=0;i<batchList.length;i++){
+                    if(batchList[i].batchname == '2nd batch'){
+                        mybatch2 = batchList[i];
+                    }
+                }
+            //for(var i=0;i<colorList.length;i++){
+            //console.log('color each==>' + colorList[i] + '===i value==>' + i);
+            //}
+             
+            console.log('mybatch2==' + mybatch2.batchname + '==count==>' + mybatch2.studentscount + '==type==>' + mybatch2.batchtype);
+            </script>
+        </body>
+    </head>
+       
+</apex:page>

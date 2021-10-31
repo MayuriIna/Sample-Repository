@@ -1,0 +1,25 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes" access="global" >
+    <div class="maincontainer">
+    <table border="10">
+        <tr>
+            <th>Course</th>
+            <th>Institite</th>
+            <th>Trainer</th>
+            <th>Batch Numb</th>
+        </tr>
+        <tr>
+            <td>Salesforce</td>
+            <td>VLR Training</td>
+            <td>Mohan</td>
+            <td>10thBatch </td>
+         </tr>
+        <tr>
+            <td>Salesforce</td>
+            <td>VLR Training</td>
+            <td>Mohan</td>
+            <td>9thBatch </td>   
+        </tr>
+    </table>
+  </div>      
+	
+</aura:component>

@@ -1,0 +1,27 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes" access="global" >
+	<head>
+        <aura:html tag="style">
+            #inrspn{
+               color:red;
+               font-size:18px;
+            }
+            #spn2data{
+                 color:green;
+                 font-size:25px;
+                 border:1px pink solid;
+            }
+            .spnclss{
+                 border:5px blue solid;
+            }
+        </aura:html>
+    </head>
+    
+    
+    <body>
+        <div>
+            <span id="inrspn" class="spnclss">Span two element</span><br/>
+            <span id="spn2data">this is span one</span>
+            <p>This is paragraph para one</p>
+        </div>
+    </body>
+</aura:component>

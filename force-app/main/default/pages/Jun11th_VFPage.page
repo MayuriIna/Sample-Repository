@@ -1,0 +1,31 @@
+<apex:page >
+    <head> 
+        
+    </head>
+     <body>
+         <div>
+             This is my div element
+         </div>
+         
+         <script>
+             var ine = 8;
+             var trainername = 'Mohan';
+             var dat = new Date();
+             var isjsclassstarted = true;
+         var accData = {};
+             var stdData = {
+                 'Name' : 'Raju',
+                 'Address' : 'Hyderabad',
+                 'phone' : '1289456321',
+                 'Email' : 'raju@gmail.com'
+             };
+             console.log('stdData===>' + accData);
+             console.log('stdData===>' + stdData.Name + '==email===>' + stdData.Email);
+             console.log('trainername===>' + trainername);
+             console.log('dat===>' + dat);
+             console.log('isjsclassstarted===>' + isjsclassstarted); 
+         
+         </script>
+    </body>   
+
+</apex:page>

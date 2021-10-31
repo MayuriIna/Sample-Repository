@@ -1,0 +1,25 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes" access="global" >
+	<head>
+        <aura:html tag="style">
+            .spansecd{
+               color:red;
+               font-size:18px;
+            }
+            p.secp{
+               font-weight:bold;
+              }
+            
+         </aura:html>
+    </head>
+    
+    
+    <body>
+        <div>
+            <span id="inrspn" class="spnclss">Span two element</span><br/>
+            <span id="spn2data" class="spansecd">this is span one</span>
+            <p class="spansecd">This is paragraph para one</p>
+        </div>
+        
+        <p class="secp">This is second para</p>
+    </body>
+</aura:component>

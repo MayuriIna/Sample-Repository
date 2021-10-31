@@ -1,0 +1,25 @@
+<apex:page showHeader="false" >
+    <head> </head>
+     <body>
+         <div>
+             <p>
+                 this is my first para
+             </p>
+         </div>
+         
+         <script type="text/javascript">
+         debugger;
+         //script level variables
+         var trainername = 'mohan';
+         function myfirstfun(){
+             debugger;
+             var instituteName = 'vlr online training';
+             console.log('instituteName==>' + instituteName);
+          }
+         console.log('trainername==>' + trainername);
+         myfirstfun();
+         </script>
+         
+    </body>   
+    
+</apex:page>

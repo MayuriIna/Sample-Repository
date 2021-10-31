@@ -1,0 +1,18 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global" >
+    
+    
+    <h1>This is second HTML CLASS.</h1><br/>
+    <h2>This is second HTML CLASS.</h2><br/>
+    <h3>This is second HTML CLASS.</h3><br/>
+    <h4>This is second HTML CLASS.</h4><br/><hr/>
+    
+    This is First HTML Class.This is First HTML Class.<i>This is First HTML Class.</i>This is First HTML Class.<b>This is First HTML Class.</b><br/>This is First HTML ClassThis is First HTML Classv<p>This is First HTML ClassThis is First HTML Class
+    This is First HTML Class.This is First HTML Class.This is First HTML Class.This is First HTML Class.This is First HTML Class.This is First HTML Class.This is First HTML Class.</p>
+    
+    <div>
+        <span>David Clough, state director for the Maine chapter of the National Federation of Independent Business,</span> said his group opposes the proposals because they would "significantly increase taxes on thousands of Maine small business owners, because the income of most small businesses is passed through and taxed on the owners’ personal 1040 tax return."
+    </div>
+    
+    
+    
+</aura:component>
