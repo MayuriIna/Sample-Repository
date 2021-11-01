@@ -1,3 +1,4 @@
+//GIT TO VSCODE
 public class AccountTriggerHandler {
     public static void beforeinsert(list<account> triggernew){
         AccountTriggerHandlerLogic.updaterating(triggernew);
