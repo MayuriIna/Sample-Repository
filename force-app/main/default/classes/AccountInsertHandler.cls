@@ -15,7 +15,7 @@ public class AccountInsertHandler {
             }
         }
     }
-    
+    //This is for testing purpose
     public static void beforeupdate(list<Account> accList)
     {
         for(account a:accList)
