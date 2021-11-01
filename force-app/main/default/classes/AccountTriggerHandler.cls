@@ -8,6 +8,7 @@ public class AccountTriggerHandler {
        }
     
     public static void beforedelete(){
+       
        }
     public static void afterinsert(){
        }
