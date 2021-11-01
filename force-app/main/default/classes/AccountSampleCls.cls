@@ -1,4 +1,4 @@
-public class AccountSampleCls {
+public class AccountSampleCls {//Account
     //variable declarations
     public string AccountName = 'GenePoint';
     public string Rating = 'Cold';
